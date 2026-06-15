@@ -30,6 +30,7 @@ const accountId = 14553
 let accountEmail = "yogesh@gmail.com"
 var accountPassword = "12345"
 accountCity = "Dumkibas"
+let accountState ;
 
 
 accountEmail = "dipesh@gmail.com"
@@ -40,4 +41,4 @@ accountCity = "Nawalpur"
 // accountId = 2 // not allowed because variable constant
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity])
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
