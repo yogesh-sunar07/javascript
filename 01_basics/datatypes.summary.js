@@ -24,11 +24,11 @@ console.log(typeof (bigNumber));
 const heros =["spiderman", "venom", "drstrange"] //arrays
 
 
-const user ={
-     name:"ram",
-     age:25,
-     isLoggedIn: true
-}; // objects 
+// const user ={
+//      name:"ram",
+//      age:25,
+//      isLoggedIn: true
+// }; // objects 
 
 
 //Function Expression.
@@ -41,3 +41,27 @@ const myFunction = function(){
 }
 
 myFunction();
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (premitive)(copy) , Heap(non-premitive)(reference)
+
+ let myyoutube = "yogeshsunar"
+ let anothername = myyoutube
+ anothername = "hero "
+ console.log(myyoutube);
+ console.log(anothername);
+ 
+
+ let user ={
+    email:"user@gmail.com",
+    userID:1234
+ }
+
+ let userTwo = user
+
+ userTwo.email = "yogesh@gmail.com"
+ console.log(user.email);
+ console.log(userTwo.email);
+ 
