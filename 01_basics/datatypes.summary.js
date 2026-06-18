@@ -54,14 +54,14 @@ myFunction();
  console.log(anothername);
  
 
- let user ={
+ let userOne ={
     email:"user@gmail.com",
     userID:1234
  }
 
- let userTwo = user
+ let userTwo = userOne
 
  userTwo.email = "yogesh@gmail.com"
- console.log(user.email);
+ console.log(userOne.email);
  console.log(userTwo.email);
  
