@@ -58,3 +58,18 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('name'));// is there any key of these name in the object or not it is only asking process
+
+const Course = {
+    courseName : "computer",
+    courseId : 1234 ,
+    courseInstructor : "Yogesh"
+ 
+}
+// const Instructor = Course.courseInstructor
+// console.log(Instructor);
+
+// destructure of Object
+const {courseInstructor : instructor ,courseId : id} = Course
+console.log(id);
+
+
