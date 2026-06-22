@@ -38,4 +38,33 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 console.log(loginUserMessage("yogesh"));
- console.log(loginUserMessage());//undefined just login
+console.log(loginUserMessage());//undefined just login
+
+// function calculateCartPrice(...num1){//jati number attribute bata pathaya ni array ko form ma linxa
+function calculateCartPrice(val1, ...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200));
+console.log(calculateCartPrice(200, 400, 500));
+
+const user = {
+    username : "yogesh",
+    price : 99
+}
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+    
+}
+// handleObject(user)
+handleObject({
+
+    username : "ram",
+    price : 100
+})
+
+const myNewArray = [200,300,100,600]
+function returnsecondValue(getArray){
+    return getArray[3]
+}
+// console.log(returnsecondValue(myNewArray));
+console.log(returnsecondValue([500,9,6,0]));
