@@ -21,3 +21,28 @@ function one(){
     
 }
 one()
+
+
+if(true){
+    const username = "yogesh"
+    if (username === "yogesh"){
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website);//outsude the scope 
+       
+}
+// console.log(username);// outside the scope
+
+function addone(num){
+    return num+1
+}
+const result = addone(5)
+console.log(result);
+
+// console.log(addTwo(6));////writing in upper give error c
+// another way to declere function where function is hold in a varibale 
+const addTwo =  function(num){
+    return num+2
+}
+console.log(addTwo(6));
