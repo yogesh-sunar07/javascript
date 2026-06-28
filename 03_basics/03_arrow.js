@@ -46,3 +46,4 @@ const addthree = (num1,num2,num3)=> (num1+num2+num3)
 console.log(addthree(2,3,9))
 
 
+//
